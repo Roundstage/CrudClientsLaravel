@@ -16,7 +16,7 @@ class ClientFactory extends Factory
     public function definition(): array
     {
         return [
-            'cpf'       =>  rand(11,11),
+            'cpf'       =>  rand(11111111111,99999999999),
             'name'      =>  fake()->name("male"),
             'address'   =>  fake()->streetAddress(),
             'birthdate' =>  fake()->date(),

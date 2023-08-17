@@ -20,6 +20,7 @@ return new class extends Migration
             $table->char('gender');
             $table->string('state');
             $table->string('city');
+            $table->timestamps();
         });
     }
 
